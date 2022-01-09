@@ -1,0 +1,16 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    Credit Card Type:
+    <input type="radio" name="cc" value="Visa" checked="checked" /> Visa
+    <input type="radio" name="cc" value="Mastercard" /> MasterCard
+    <input type="radio" name="cc" value="AMEX" /> American Express
+    <input type="submit" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

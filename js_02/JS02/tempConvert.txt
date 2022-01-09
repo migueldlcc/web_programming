@@ -1,0 +1,7 @@
+Write a JavaScript program to convert temperatures
+to and from Celsius, Fahrenheit.
+[Formula: C/5 = (F-32)/9]
+(where C = temperature in Celsius and F = temperature in Fahrenheit)
+
+Example 1: 60°C is 140 °F
+Example 2: 45°F is 7.2°C

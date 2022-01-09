@@ -1,0 +1,18 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    Text color:
+    <input type="radio" name="color" value="red" /> Red
+    <input type="radio" name="color" value="green" /> Green
+    <input type="radio" name="color" value="purple" 
+        checked="checked" /> Purple
+    <input type="radio" name="color" value="blue" /> Blue
+    <input type="submit" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

@@ -1,0 +1,27 @@
+<!-- @author: Miguel de la Cruz Cabello
+    Professor Lund
+    COMS 210
+    @date: 4 April 2021
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <script src ="BMI_calculator.js"></script>
+  </head>
+  <body>
+    <h1>Calculate your Body Mass Index (BMI)!</h1>
+    <fieldset>
+      Weight (in pounds): <input type="text" id="weight" /><br />
+      Height (in inches): <input type="text" id="height" /><br />
+      <button onclick="calculate();">Get BMI!</button>
+    </fieldset>
+
+    <p>
+      Your BMI is <span id="score"></span> <br />
+      Your body type is: <span id="type"></span>
+    </p>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <fieldset>
+    <label>Name: <input type="text" name="name" /></label> <br />
+    <label>Meal: <input type="text" name="meal" /></label> <br />
+    <label>Meat?
+      <input type="checkbox" name="meat" checked="checked" />
+    </label> <br />
+    
+    <!-- two hidden input parameters -->
+    <input type="hidden" name="organization" value="ScumCo" />
+    <input type="hidden" name="year" value="2008" />
+    
+    <input type="submit" value="Submit Meal Preferences" />
+  </fieldset>
+</form>
+
+<!--#include virtual="../footer2.html" -->

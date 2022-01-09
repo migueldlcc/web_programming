@@ -1,0 +1,23 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    Font options:
+    <input type="checkbox" name="bold" /> Bold
+    <input type="checkbox" name="italic" checked="checked" /> Italic
+
+  </div>
+
+<p></p>
+<div>
+    Condument options:
+      <input type="checkbox" name="lettuce" /> Lettuce
+      <input type="checkbox" name="tomato" checked="checked" /> Tomato
+      <input type="checkbox" name="pickles" /> Pickles
+      <input type="submit" />
+</div>
+</form>
+<!--#include virtual="../footer2.html" -->

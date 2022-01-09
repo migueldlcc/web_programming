@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+<head
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <script type="text/javascript" src="ccValidType.js"> </script>
+
+  <title> Valid CC </title>
+</head>
+<body>
+<p> Validate CCs here </p>
+<form name="ccfield">
+    <label> Enter a Credit Card: <input type="text" name="ccValue" id="CCNumber" width="20"/> </label>
+    <br>
+</form>
+    <input type="submit" name="submit" onclick="is_creditCard(document.ccfield.ccValue)" value="Validate">
+
+    <p id=validated> Credit Card Valid?</p>
+</body>
+</html>

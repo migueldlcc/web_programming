@@ -1,0 +1,24 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="process3.php">
+  <div>
+    <input type="radio" name="ccard" value="visa" checked="checked" /> 
+    Visa
+    <input type="radio" name="ccard" value="mastercard" /> MasterCard
+    <input type="radio" name="ccard" value="discover" /> Discover <br />
+    
+    Credit card number:
+    <input type="text" name="ccnumber" size="20" /> <br />
+    
+    <label>
+      <input type="checkbox" name="express" />
+      Express shipping? ($10 extra)
+    </label> <br />
+    <input type="submit" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

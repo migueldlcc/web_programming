@@ -1,0 +1,19 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    <select name="vehicletype">
+      <option>Truck</option>
+      <option>SUV</option>
+      <option>Car</option>
+      <option>Hybrid</option>
+      <option>Motorcycle</option>
+    </select>
+    <input type="submit" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

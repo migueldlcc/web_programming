@@ -1,0 +1,14 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <fieldset>
+    <legend>Login Information</legend>
+    <input type="text" name="username" /> User Name <br />
+    <input type="text" name="password" /> Password
+  </fieldset>
+</form>
+
+<!--#include virtual="../footer2.html" -->

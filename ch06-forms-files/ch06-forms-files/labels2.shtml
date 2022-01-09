@@ -1,0 +1,21 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    Font options:
+    <input id="bold" type="checkbox" name="bold" />
+    <label for="bold">Bold</label>
+
+    <input id="italic" type="checkbox" name="italic" />
+    <label for="italic">Italic</label> <br />
+    <br />
+
+    <label for="bold">Click me to check the bold box too!</label> <br />
+    <input type="submit" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

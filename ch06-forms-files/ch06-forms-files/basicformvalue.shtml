@@ -1,0 +1,14 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://www.google.com/search">
+  <div>
+    Type your Google query:
+    <input name="q" value="Colbert Report" />
+    <input type="submit" value="Booyah!" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

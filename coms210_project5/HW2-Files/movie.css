@@ -1,0 +1,129 @@
+/*
+Internet Programming, Homework Project 2: Movie Review
+This file contains the stylistic information for my movie review page.
+Author (student name): Miguel de la Cruz Cabello
+Date: 16 February 2021
+
+Your css code starts below this comment section.
+*/
+body {
+  background-image: url('background.png');
+  font-size: 8pt;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.banner {
+  background-image: url('bannerbg.png');
+  text-align: center;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 3px 3px #999999;
+  font-size: 24pt;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+#overall {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px grey solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#left {
+  width: 560px;
+}
+
+#rottenbig {
+  background-image: url('rbg.png');
+  margin-bottom: auto;
+  height: 83px;
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+}
+
+#rottenbig img {
+  float: left;
+  padding-right: 15px;
+
+}
+
+.column {
+  width: 47%;
+  float: left;
+  column-gap: 2%;
+}
+
+.p1 {
+  font-size: 8pt;
+  font-weight: bold;
+  background-color: #E8DC9B;
+  border: 2px grey solid;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 8px;
+  overflow: auto;
+}
+
+.p1 img {
+  float: left;
+  margin-right: 5px;
+}
+
+.writer {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.writer img {
+  padding-right: 10px;
+  float: left;
+}
+
+#right {
+  background-color: #A2B964;
+  width: 250px;
+  float: right;
+  font-size: 8pt;
+  font-family: Arial, sans-serif;
+}
+
+#right img {
+float: top-right;
+padding-top: 0px;
+
+}
+
+dl {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+dt {
+  margin-top: 10px;
+}
+
+ul {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+#last {
+  clear: both;
+  background-color: #A2B964;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 0px;
+}
+
+.validators {
+  float: right;
+  opacity: 50%;
+}

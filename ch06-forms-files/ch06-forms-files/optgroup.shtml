@@ -1,0 +1,23 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    <select name="vehicletype" size="7">
+      <optgroup label="Lots of Gas">
+        <option>Truck</option>
+        <option>SUV</option>
+      </optgroup>
+      <optgroup label="Not So Much Gas">
+        <option>Car</option>
+        <option>Hybrid</option>
+        <option>Motorcycle</option>
+      </optgroup>
+    </select>
+    <input type="submit" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

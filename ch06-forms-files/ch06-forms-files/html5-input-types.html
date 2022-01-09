@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+	<style type="text/css">
+form div {
+  clear: left;
+  margin: 3px;
+}
+
+form div strong {
+  float: left;
+  width: 10em;
+}
+
+p { margin: 0; }
+	</style>
+  </head>
+
+  <body>
+    <form>
+	  <div><strong>email:</strong><input type="email" placeholder="joe@example.com" /></div>
+	  <div><strong>number:</strong> <input type="number" /></div>
+	  <div><strong>number 1-100:</strong><input type="number" min="1" max="100" /></div>
+	  <div><strong>number 0.0-4.0:</strong><input type="number" min="0.0" max="4.0" step="0.1" /></div>
+	  <div><strong>search:</strong><input type="search" /></div>
+	  <div><strong>tel:</strong><input type="tel" /></div>
+	  <div><strong>url:</strong><input type="url" /></div>
+
+<div><strong>time:</strong><input type="time" /></div>
+<div><strong>datetime:</strong><input type="datetime" /></div>
+<div><strong>date:</strong><input type="date" /></div>
+<div><strong>month:</strong><input type="month" /></div>
+<div><strong>week:</strong><input type="week" /></div>
+
+	  <div><strong>range:</strong><input type="range" /></div>
+	  <div><strong>color:</strong><input type="color" /></div>
+
+	  <div><strong>keygen:</strong><keygen keytype="rsa"></keygen></div>
+	  <div><strong>meter:</strong><meter value="0.75"></meter></div>
+	  <div><strong>output:</strong><output></output></div>
+	  <div><strong>progress:</strong><progress value="0.25"></progress></div>
+
+	  <div>
+<strong>Favorite character:</strong>
+<input type="text" name="trek" list="trekchars" />
+<datalist id="trekchars">
+  <option>Picard</option>
+  <option>Riker</option>
+  <option>Data</option>
+  <option>Worf</option>
+  <option>Dr. Crusher</option>
+  <option>Troi</option>
+  <option>Barkley</option>
+</datalist>
+      </div>
+
+	  <div>
+<p><meter min="0" max="25" value="24.6"></meter> 24.6% Ron DeSantis</p>
+<p><meter min="0" max="25" value="24.5"></meter> 24.5% Nikki Haley</p>
+<p><meter min="0" max="25" value="21.4"></meter> 21.4% Mike Pence</p>
+<p><meter min="0" max="25" value="13.3"></meter> 13.3% Marco Rubio</p>
+<p><meter min="0" max="25" value="10.3"></meter> 10.3% Kristi Noem</p>
+	  </div>
+	  </form>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+#dreamjobtext {
+  background-color: red;
+  border: 2px dashed green;
+  color: white; 
+}
+
+#dreamjobbutton {
+  background-color: white;
+  border: 1px solid black;
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    <label for="dreamjobtext">Dream Job:</label>
+    <input id="dreamjobtext" type="text" name="dreamjob"
+        value="Enter your dream job" />
+    <input id="dreamjobbutton" type="submit" value="Submit!" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->

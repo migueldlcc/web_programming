@@ -1,0 +1,17 @@
+<!--#include virtual="../header.html" -->
+
+<style type="text/css">
+</style>
+
+<form action="http://webster.cs.washington.edu/params.php">
+  <div>
+    ID number:
+    <input type="text" name="idnumber" /> <br />
+    First name:
+    <input type="text" name="fname" size="30" 
+        maxlength="20" value="Jethro" />
+    <input type="submit" />
+  </div>
+</form>
+
+<!--#include virtual="../footer2.html" -->
